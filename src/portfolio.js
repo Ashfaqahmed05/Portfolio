@@ -11,6 +11,9 @@ import {TbBrandNextjs} from "react-icons/tb";
 import {SiNpm} from "react-icons/si";
 import {DiNodejs} from "react-icons/di";
 import {DiMongodb} from "react-icons/di";
+import { TbBrandSocketIo } from "react-icons/tb";
+import { SiExpress } from "react-icons/si";
+
 
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
 
@@ -29,10 +32,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Mustafa Zuberi",
-  title: "Hi all, I'm Mustafa",
+  username: "Ashfaq Ahmed",
+  title: "Hi all, I'm Ashfaq",
   subTitle: emoji(
-    " A passionate Software Developer 🚀 with experience in building web applications using JavaScript, React.js, Next.js, Firebase, and some other cool libraries and frameworks."
+    "A passionate Software Developer 🚀 skilled in building dynamic web applications with JavaScript, React.js, Next.js, Firebase, and a suite of cutting-edge libraries and frameworks."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1BPBBfT634oDIQUSJXrllEXSMG8722prY/view?usp=sharing", // Set to empty to hide the button
@@ -42,14 +45,14 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/mustafazuberi",
-  linkedin: "https://www.linkedin.com/in/mustafa-zuberi-475334231/",
-  gmail: "mustafazuberi986@gmail.com",
+  github: "https://github.com/Ashfaqahmed05",
+  linkedin: "https://www.linkedin.com/in/ashfaq-ahmed-6a7ab7279/",
+  gmail: "Ashfaq24637@gmail.com",
   // gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/mustafa.zuberi.716",
+  facebook: "https://www.facebook.com/profile.php?id=100053927520168",
   // medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/20854534/mustafa-zuberi",
-  instagram: "https://www.instagram.com/mustafa.raza.zuberi._/",
+  // stackoverflow: "https://stackoverflow.com/users/20854534/mustafa-zuberi",
+  instagram: "https://instagram.com/ashfaq1o9/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -104,6 +107,14 @@ https://fontawesome.com/icons?d=gallery */
       reactIconsIcon: <DiNodejs />
     },
     {
+      skillName: "expressjs",
+      reactIconsIcon: <SiExpress />
+    },
+    {
+      skillName: "socketIo",
+      reactIconsIcon: <TbBrandSocketIo />
+    },
+    {
       skillName: "npm",
       reactIconsIcon: <SiNpm />
     },
@@ -121,16 +132,16 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Education Trust Nasra School",
-      logo: require("./assets/images/nasra school.png"),
+      schoolName: "Arqam public school",
+      logo: require("./assets/images/Arqam school.png"),
       subHeader: "Matriculation in Computer Science",
-      duration: "September 2008 - April 2020"
+      duration: "September 2011 - April 2021"
     },
     {
-      schoolName: "Government Superior Science College",
-      logo: require("./assets/images/superior collge.jpg"),
-      subHeader: "Intermediate in Computer Science",
-      duration: "September 2020 - September 2022"
+      schoolName: "Government Degree Science College Malir",
+      logo: require("./assets/images/Degree college.jpg"),
+      subHeader: "Intermediate in Pre-engineering",
+      duration: "September 2022 - September 2024"
     }
   ]
 };
@@ -154,25 +165,25 @@ const techStack = {
 
 // Work experience section
 
-const workExperiences = {
-  display: true, //Set it to true to show workExperiences Section
-  experience: [
-    {
-      role: "Frontend React JS Developer",
-      company: "Smash Code",
-      companylogo: require("./assets/images/smashcode.png"),
-      date: "March 2023 – August 2023",
-      desc: "I've actively contributed to the development of React Web Applications, spanning CMS panels and a mix of static and dynamic websites, playing a significant role in enhancing their functionality and user appeal."
-    },
-    {
-      role: "Software Developer (Next.js)",
-      company: "Expertizo",
-      companylogo: require("./assets/images/expertizo.jpg"),
-      date: "December 2023 – Present",
-      desc: "Experienced React developer at Expertizo, specializing in CMS panels and dynamic websites. Proficient in Next.js, TypeScript, and Redux Toolkit, contributing to the advancement of software development projects."
-    }
-  ]
-};
+// const workExperiences = {
+//   display: true, //Set it to true to show workExperiences Section
+//   experience: [
+//     {
+//       role: "Frontend React JS Developer",
+//       company: "Smash Code",
+//       companylogo: require("./assets/images/smashcode.png"),
+//       date: "March 2023 – August 2023",
+//       desc: "I've actively contributed to the development of React Web Applications, spanning CMS panels and a mix of static and dynamic websites, playing a significant role in enhancing their functionality and user appeal."
+//     },
+//     {
+//       role: "Software Developer (Next.js)",
+//       company: "Expertizo",
+//       companylogo: require("./assets/images/expertizo.jpg"),
+//       date: "December 2023 – Present",
+//       desc: "Experienced React developer at Expertizo, specializing in CMS panels and dynamic websites. Proficient in Next.js, TypeScript, and Redux Toolkit, contributing to the advancement of software development projects."
+//     }
+//   ]
+// };
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -188,81 +199,42 @@ const bigProjects = {
   title: "Projects",
   projects: [
     {
-      image: require("./assets/images/M.png"),
-      projectName: "Messenger Clone",
+      image: require("./assets/images/E-commerce.JPG"),
+      projectName: "E-Commerce Website",
       projectDesc:
-        "Developed a feature-rich chat app using Next.js, Firebase, TypeScript, and Tailwind CSS designed with Shadcn UI. Implemented seamless authentication, including signup, login, and social logins. Users can engage in diverse conversations with text, voice, and images. The UI, facilitates easy blocking, real-time status tracking, and last seen timestamps. Additionally, users can establish connections by sending and accepting friend requests, enhancing the overall user experience.",
+        `This e-commerce website, built with React.js, Firebase, and Tailwind CSS, features separate interfaces for users and administrators. Key functionalities include:
+User Interface: Users can browse products, add them to their cart, and place orders. Authentication ensures a secure environment. Users can also engage in real-time chat with administrators regarding their orders, facilitating efficient communication.
+Admin Interface: Administrators have extensive control, including adding, editing, and deleting products. They can manage orders, interact with users via order-specific chat, and view all registered users.`,
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://messenger-clone-by-mustafazuberi.vercel.app/auth/signin"
+          url: "https://e-commerce-theta-rust.vercel.app/"
         }
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/smidiscountstore.png"),
-      projectName: "SMIT Discount Store",
+      image: require("./assets/images/olx.JPG"),
+      projectName: "OLX Clone",
       projectDesc:
-        "This web application on React.js allows users to order products and view their orders in the profile section. Users can also update their full name, as well as view the status of their orders (pending, delivered, rejected) in their profile. Admins can add categories, products, and change the status of orders.      ",
+        "Developed using React.js, Firebase, and Bootstrap, this OLX clone provides a comprehensive platform for buying and selling products. The project includes full user authentication with a password reset feature. Users can create profiles, post ads for products they want to sell, and manage their ads through a user-friendly interface. Buyers can add products to their cart, place orders, and track the status of their orders. Sellers can accept or decline orders, providing real-time updates to buyers. This project demonstrates a robust e-commerce experience where users function as both sellers and buyers seamlessly.",
       footerLink: [
         {
           name: "Visit Website",
-          url: "https://smit-discount-store-mrz.netlify.app/"
-        }
+          url: "https://react-olx-nine.vercel.app/"
+        },
+        // {
+        //   name: "Visit Repo",
+        //   url: "https://react-olx-nine.vercel.app/"
+        // }
         //  you can add extra buttons here.
       ]
     },
-    {
-      image: require("./assets/images/darazclone.png"),
-      projectName: "Daraz Clone",
-      projectDesc:
-        "Utilizing the latest technologies such as MongoDB, React.js, Express.js, and Node.js, this platform provides an intuitive and user-friendly interface that simplifies the process of setting up an online store, creating product listings, and managing orders. With Daraz Clone, users can easily create their own virtual store and start selling products in no time.      ",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://www.linkedin.com/feed/update/urn:li:activity:7031321133127806976/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/foodpanda.png"),
-      projectName: "Foodpanda Clone",
-      projectDesc:
-        "This is web-app on React.js ,As a user, you can order food from any restaurant and view your order status in the cart. To place an order, your current location must be accessible. As a restaurant, you can update your restaurant info and add/edit/delete items. You can also view available orders in the cart and accept/reject orders.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://foodpanda-clone-mrzuberi.netlify.app/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/whatsapp.png"),
-      projectName: "Whatsapp Clone",
-      projectDesc:
-        "Chat App developed using HTML, CSS, JavaScript, and Firebase, creating a WhatsApp-like interface with responsive design, Firebase-based chat functionality, image sending, and Emoji support.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://chatapp-whatsapp-mustafa.netlify.app/"
-        }
-      ]
-    },
-    {
-      image: require("./assets/images/turoclone.png"),
-      projectName: "Turo Clone",
-      projectDesc:
-        "I developed this landing page using REACTJS functional components with a responsive design, utilizing UI libraries such as Ant Design and Material UI.This project allowed me to further develop my skills in web design and development.",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "https://turo-mrzuberi-clone.netlify.app/"
-        }
-      ]
-    }
+    
+    
+    
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -347,7 +319,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: false// Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -386,15 +358,15 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-3142516701",
-  email_address: "mustafazuberi986@gmail.com"
+  number: "+92-3123624637",
+  email_address: "Ashfaq24637@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: false // Set true to display this section, defaults to false
+  display: false// Set true to display this section, defaults to false
 };
 
 const isHireable = true; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
@@ -407,7 +379,7 @@ export {
   skillsSection,
   educationInfo,
   techStack,
-  workExperiences,
+  // workExperiences,
   openSource,
   bigProjects,
   achievementSection,
