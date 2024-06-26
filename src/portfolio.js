@@ -38,7 +38,7 @@ const greeting = {
     "A passionate Software Developer 🚀 skilled in building dynamic web applications with JavaScript, React.js, Next.js, Firebase, and a suite of cutting-edge libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/16Fn0sc0k_uSnozmshkRz3gh-XamxBnBI/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/17j6QcQ5OwCajObXIgcry2dAsEzkNwAMD/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -199,7 +199,7 @@ const bigProjects = {
   title: "Projects",
   projects: [
     {
-      image: require("./assets/images/E-commerce.JPG"),
+      image: require("./assets/images/E-commerce.webp"),
       projectName: "E-Commerce Website",
       projectDesc:
         `This e-commerce website, built with React.js, Firebase, and Tailwind CSS, features separate interfaces for users and administrators. Key functionalities include:
@@ -214,7 +214,7 @@ Admin Interface: Administrators have extensive control, including adding, editin
       ]
     },
     {
-      image: require("./assets/images/olx.JPG"),
+      image: require("./assets/images/olx.webp"),
       projectName: "OLX Clone",
       projectDesc:
         "Developed using React.js, Firebase, and Bootstrap, this OLX clone provides a comprehensive platform for buying and selling products. The project includes full user authentication with a password reset feature. Users can create profiles, post ads for products they want to sell, and manage their ads through a user-friendly interface. Buyers can add products to their cart, place orders, and track the status of their orders. Sellers can accept or decline orders, providing real-time updates to buyers. This project demonstrates a robust e-commerce experience where users function as both sellers and buyers seamlessly.",
