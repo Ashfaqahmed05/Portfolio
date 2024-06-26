@@ -38,7 +38,7 @@ const greeting = {
     "A passionate Software Developer 🚀 skilled in building dynamic web applications with JavaScript, React.js, Next.js, Firebase, and a suite of cutting-edge libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/17j6QcQ5OwCajObXIgcry2dAsEzkNwAMD/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1cah_3Dy8tv_YUUgPzcUy_B8v9lHOoMUy/view?usp=drive_link", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
