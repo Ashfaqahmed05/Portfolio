@@ -38,7 +38,7 @@ const greeting = {
     "A passionate Software Developer 🚀 skilled in building dynamic web applications with JavaScript, React.js, Next.js, Firebase, and a suite of cutting-edge libraries and frameworks."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1cah_3Dy8tv_YUUgPzcUy_B8v9lHOoMUy/view?usp=drive_link", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1fmsgpG01iYZTSQrUmzl7NKBrPh8q-iSE/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -53,6 +53,8 @@ const socialMediaLinks = {
   // medium: "https://medium.com/@saadpasta",
   // stackoverflow: "https://stackoverflow.com/users/20854534/mustafa-zuberi",
   instagram: "https://instagram.com/ashfaq1o9/",
+  whatsapp: "https://wa.me/923123624637?text=Hello,%20I%20am%20interested%20in%20your%20services",
+
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -199,6 +201,26 @@ const bigProjects = {
   title: "Projects",
   projects: [
     {
+      image: require("./assets/images/chatApp.webp"),
+      projectName: "Mern ChatApp",
+      projectDesc:
+        `I developed a robust real-time chat application using the MERN stack, featuring seamless user authentication and an intuitive interface for sending friend requests. The app supports real-time messaging with the ability to share multimedia files, including videos, images, audios, and documents. Users can also create and manage groups, making it a comprehensive solution for both individual and group communication. This project highlights my expertise in building dynamic, user-centric applications with real-time capabilities.`,
+      footerLink: [
+        {
+          name: "Frontend Repo",
+          url: "https://github.com/Ashfaqahmed05/Mern-ChatApp-Frontend"
+        },
+        {
+          name: "Demo Link",
+          url: "https://www.linkedin.com/posts/ashfaq-ahmed-6a7ab7279_mernstack-webdevelopment-realtimechat-activity-7235688399850921985-IaoN "
+        },
+        {
+          name: "Backend Repo",
+          url: "https://github.com/Ashfaqahmed05/Mern-chatApp-Backend"
+        }
+      ]
+    },
+    {
       image: require("./assets/images/E-commerce.webp"),
       projectName: "E-Commerce Website",
       projectDesc:
@@ -209,8 +231,11 @@ Admin Interface: Administrators have extensive control, including adding, editin
         {
           name: "Visit Website",
           url: "https://e-commerce-theta-rust.vercel.app/"
+        },
+        {
+          name: "Visit Repo",
+          url: "https://github.com/Ashfaqahmed05/E-Commerce"
         }
-        //  you can add extra buttons here.
       ]
     },
     {
@@ -223,10 +248,10 @@ Admin Interface: Administrators have extensive control, including adding, editin
           name: "Visit Website",
           url: "https://react-olx-nine.vercel.app/"
         },
-        // {
-        //   name: "Visit Repo",
-        //   url: "https://react-olx-nine.vercel.app/"
-        // }
+        {
+          name: "Visit Repo",
+          url: "https://github.com/Ashfaqahmed05/react-olx/"
+        }
         //  you can add extra buttons here.
       ]
     },

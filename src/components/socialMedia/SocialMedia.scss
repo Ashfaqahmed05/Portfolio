@@ -68,6 +68,10 @@
   background-color: $instagram;
 }
 
+.whatsapp i {
+  background-color: #25d366;
+}
+
 /* Hover Transition */
 .twitter i:hover,
 .google i:hover,
@@ -77,6 +81,7 @@
 .facebook i:hover,
 .instagram i:hover,
 .stack-overflow i:hover,
+.whatsapp i:hover,
 .kaggle i:hover,
 .medium i:hover {
   background-color: $textColor;
