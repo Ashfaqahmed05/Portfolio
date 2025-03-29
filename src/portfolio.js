@@ -13,6 +13,9 @@ import {DiNodejs} from "react-icons/di";
 import {DiMongodb} from "react-icons/di";
 import { TbBrandSocketIo } from "react-icons/tb";
 import { SiExpress } from "react-icons/si";
+import { FaPhp } from "react-icons/fa6";
+import { FaLaravel } from "react-icons/fa6";
+
 
 
 import splashAnimation from "./assets/lottie/splashAnimation"; // Rename to your file name for custom animation
@@ -123,6 +126,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "mongodb",
       reactIconsIcon: <DiMongodb />
+    },
+    {
+      skillName: "PHP",
+      reactIconsIcon: <FaPhp />
+    },
+    {
+      skillName: "Laravel",
+      reactIconsIcon: <FaLaravel  />
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -167,25 +178,18 @@ const techStack = {
 
 // Work experience section
 
-// const workExperiences = {
-//   display: true, //Set it to true to show workExperiences Section
-//   experience: [
-//     {
-//       role: "Frontend React JS Developer",
-//       company: "Smash Code",
-//       companylogo: require("./assets/images/smashcode.png"),
-//       date: "March 2023 – August 2023",
-//       desc: "I've actively contributed to the development of React Web Applications, spanning CMS panels and a mix of static and dynamic websites, playing a significant role in enhancing their functionality and user appeal."
-//     },
-//     {
-//       role: "Software Developer (Next.js)",
-//       company: "Expertizo",
-//       companylogo: require("./assets/images/expertizo.jpg"),
-//       date: "December 2023 – Present",
-//       desc: "Experienced React developer at Expertizo, specializing in CMS panels and dynamic websites. Proficient in Next.js, TypeScript, and Redux Toolkit, contributing to the advancement of software development projects."
-//     }
-//   ]
-// };
+const workExperiences = {
+  display: true, //Set it to true to show workExperiences Section
+  experience: [
+    {
+      role: "Laravel Developer",
+      company: "Global Clicks",
+      companylogo: require("./assets/images/GC-logo.jpg"),
+      date: "March 2023 – August 2023",
+      desc: "I've actively contributed to the development of Laravel Applications, spanning CMS panels and a mix of static and dynamic websites, playing a significant role in enhancing their functionality and user appeal."
+    }
+  ]
+};
 
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
@@ -404,7 +408,7 @@ export {
   skillsSection,
   educationInfo,
   techStack,
-  // workExperiences,
+  workExperiences,
   openSource,
   bigProjects,
   achievementSection,
