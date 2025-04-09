@@ -185,7 +185,7 @@ const workExperiences = {
       role: "Laravel Developer",
       company: "Global Clicks",
       companylogo: require("./assets/images/GC-logo.jpg"),
-      date: "March 2023 – August 2023",
+      date: "Jan 2025 – Present",
       desc: "I've actively contributed to the development of Laravel Applications, spanning CMS panels and a mix of static and dynamic websites, playing a significant role in enhancing their functionality and user appeal."
     }
   ]
