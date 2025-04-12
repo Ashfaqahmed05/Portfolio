@@ -145,17 +145,23 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Arqam public school",
-      logo: require("./assets/images/Arqam school.png"),
-      subHeader: "Matriculation in Computer Science",
-      duration: "September 2011 - April 2021"
+      schoolName: "Sohail University",
+      logo: require("./assets/images/SU-Logo.png"),
+      subHeader: "Business and Computing (BnC)",
+      duration: "November 2024 - Present"
     },
     {
       schoolName: "Government Degree Science College Malir",
       logo: require("./assets/images/Degree college.jpg"),
       subHeader: "Intermediate in Pre-engineering",
       duration: "September 2022 - September 2024"
-    }
+    },
+    {
+      schoolName: "Arqam public school",
+      logo: require("./assets/images/Arqam school.png"),
+      subHeader: "Matriculation in Computer Science",
+      duration: "September 2011 - April 2021"
+    },
   ]
 };
 
